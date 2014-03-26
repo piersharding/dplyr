@@ -1,5 +1,8 @@
 # dplyr 0.1.3.0.99
 
+* `print.tbl_df()` works better when you have columns containing lists of
+  complex objects.
+
 * `do()` gains an automatic progress bar. It appears if the computation takes
   longer than 5 seconds and lets you know (approximately) how much longer the
   job will take to complete.
